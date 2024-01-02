@@ -12,3 +12,13 @@ int main()
        return 0;
 }
 
+/*
+a = 5
+5 is not divisible by 5 and 11
+
+a = 55
+55 is divisible by 5 and 11
+
+a = 77
+77 is not divisible by 5 and 11
+*/
