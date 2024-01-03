@@ -1,28 +1,33 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,c,d,e,f,g,h,i,j;
+    int a,b,c;
     a=5;
-    b=6;
+    b=7;
     c=7;
-    d=8;
-    e=9;
-    f=10;
-    g=11;
-    h=12;
-    i=13;
-    j=14;
+    
     printf("a = %d and the address of a is %d\n",a,&a);
     printf("b = %d and the address of b is %d\n",b,&b);
     printf("c = %d and the address of c is %d\n",c,&c);
-    printf("d = %d and the address of d is %d\n",d,&d);
-    printf("e = %d and the address of e is %d\n",e,&e);
-    printf("f = %d and the address of f is %d\n",f,&f);
-    printf("g = %d and the address of g is %d\n",g,&g);
-    printf("h = %d and the address of h is %d\n",h,&h);
-    printf("i = %d and the address of i is %d\n",i,&i);
-    printf("j = %d and the address of j is %d\n",j,&j);
-
+        
+    double age = 25.5;
+    //float age = 25.5;
+    printf("Your age is: %d\n", &age);  // Directly accessing the variable 'age'
+    
+    int value = 100;
+    int *ptr = &value;  // ptr now stores the address of 'value'
+    printf("Value stored at the address: %d\n", *ptr);  // Accessing the value using the pointer
+    printf("Value stored at the address: %d\n", ptr);
+    
+    
     return 0;
 }
-//Different between  2 address is 4
+
+/*
+output: a = 5 and the address of a is 234686564
+        b = 7 and the address of b is 234686560
+        c = 7 and the address of c is 234686556
+        Your age is: 234686544
+        Value stored at the address: 100
+        Value stored at the address: 234686540
+*/
