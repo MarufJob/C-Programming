@@ -1,3 +1,4 @@
+//Conditional Operator using assign the value in a variable
 #include <stdio.h>
 int main()
 
