@@ -4,6 +4,7 @@ int main()
 {
     int a,sum,n,i,T;
 
+    printf("How many times sum:");
     scanf("%d",&T);
 
     while(T--){
