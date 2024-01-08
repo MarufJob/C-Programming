@@ -1,3 +1,4 @@
+//bool -> char -> int -> float -> double
 #include <stdio.h>
 int main()
 {
