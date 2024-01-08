@@ -20,4 +20,10 @@ int main()
     return 0;
 }
 
-
+/*
+Output: bool size 1
+        char size 1
+        int size 4
+        float size 4
+        double size 8
+*/
