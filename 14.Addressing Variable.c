@@ -18,7 +18,7 @@ int main()
     int *ptr = &value;  // ptr now stores the address of 'value'
     printf("Value stored at the address: %d\n", *ptr);  // Accessing the value using the pointer
     printf("Value stored at the address: %d\n", ptr);
-    
+    //printf("%d\n",sizeof(double));
     
     return 0;
 }
