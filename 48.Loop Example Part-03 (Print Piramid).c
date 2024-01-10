@@ -1,0 +1,38 @@
+///Print a shape
+///Input 4
+/// Output
+///    *
+///    **
+///    ***
+///    ****
+
+#include <stdio.h>
+int main()
+{
+    int i,j;
+    int n;
+    scanf("%d",&n);
+
+      for(i=1; i<=n; i++)
+
+        {
+
+        for(j=1; j<=i; j++)
+
+        {
+            printf("*");
+        }
+        printf("\n");
+        }
+
+    return 0;
+}
+
+/*
+Input:  5
+Output: *
+        **
+        ***
+        ****
+        *****
+*/
